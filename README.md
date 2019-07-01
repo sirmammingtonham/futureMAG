@@ -1,2 +1,2 @@
-# fake_news
+# futureNEWS
 creating a medium publication with articles generated solely with ai
