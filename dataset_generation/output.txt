@@ -1,0 +1,136 @@
+<|startoftext|>
+# Facebook Insists No Security ‘Backdoor’ Is Planned for WhatsApp
+
+## The company is fighting back against rumors that it would scan messages on users’ phones prior to encryption
+
+![Photo: SOPA Images/Getty Images](1*moEaNMSad1vss3gXQCuoeA.jpeg)*Photo: SOPA Images/Getty Images*
+
+Billions of people use the messaging tool WhatsApp, which added end-to-end encryption for every form of communication available on its platform back in 2016. This ensures that conversations between users and their contacts — whether they occur via text or voice calls — are private, inaccessible even to the company itself.
+
+But several recent posts published to *Forbes*’ blogging platform call WhatsApp’s future security into question. The posts, which were written by contributor Kalev Leetaru, allege that Facebook, WhatsApp’s parent company, plans to detect abuse by implementing a feature to scan messages directly on people’s phones before they are encrypted. The posts gained significant attention: A [blog post by technologist Bruce Schneier](https://www.schneier.com/blog/archives/2019/08/facebook_plans_.html) rehashing one of the *Forbes *posts has the headline “Facebook Plans on Backdooring WhatsApp.”
+
+It is a claim Facebook unequivocally denies.
+> # “To be crystal clear, we have not done this, have zero plans to do so, and if we ever did, it would be quite obvious and detectable that we had done it.”
+
+“We haven’t added a backdoor to WhatsApp,” Will Cathcart, WhatsApp’s vice president of product management, wrote in a statement provided to *OneZero *and previously [posted to Hacker News](https://news.ycombinator.com/item?id=20587643).“To be crystal clear, we have not done this, have zero plans to do so, and if we ever did, it would be quite obvious and detectable that we had done it. We understand the serious concerns this type of approach would raise, which is why we are opposed to it.”
+
+WhatsApp is one of the most scrutinized apps in the world, a Facebook spokesman told *OneZero *in a phone call, adding that any kind of backdoors would be immediately obvious to the security community. There are many security experts looking at WhatsApp on a regular basis, he added.
+
+Although the app is not open-source, security researchers can download the Android application package (APK) and use third-party tools to get readable Java code back, or they can extract the binary code for the iPhone versions and use debuggers (such as IDA Pro) to try to understand how it works.
+
+“I’m sure people are constantly looking at reverse engineering it,” says cryptographer Steve Weis, a fellow at the Aspen Tech Policy Hub and former software engineer at Facebook. “Generally you can assume that people are poking around the binaries.”
+
+While it’s certainly possible for any end-to-end encrypted app to backdoor its own code, doing so without people being able to figure out what’s happening would be extremely difficult.
+
+
+The accusation leveled against Facebook is that the company plans to embed content moderation and blacklist filtering algorithms directly onto users’ mobile devices, scanning Messenger and WhatsApp messages before and after they are encrypted. The [post](https://www.forbes.com/sites/kalevleetaru/2019/07/26/the-encryption-debate-is-over-dead-at-the-hands-of-facebook/#506eae7f5362) by Leetaru points to potential future scenarios where the vast majority of phones would include this type of scanning, rendering encryption meaningless.
+
+“Facebook’s model entirely bypasses the encryption debate by globalizing the current practice of compromising devices by building those encryption bypasses directly into the communication clients themselves and deploying what amounts to machine-based wiretaps to billions of users at once,” Leetaru writes, adding that this would “create a framework for governments to outsource their mass surveillance directly to social media companies.”
+
+How did the rumor start? It has to do with the blogging platform itself and an unrelated presentation detailing potential ways to automate content moderation efforts on social platforms.
+
+*Forbes* does not typically review blog posts by its contributors, who are not staff writers for the publication. The company did not immediately respond to a request for comment about this. (Disclosure: I was a *Forbes* contributor myself from July 2015 to January 2017.)
+
+Though Leetaru originally stated in his post that a Facebook spokesperson declined to comment, Facebook tells *OneZero *this was not the case and that it gave Leetaru “[background](https://www.cjr.org/opinion/tech-journalism-on-background.php)” information: context meant to inform an article without being quoted directly.
+
+Reached via email, Leetaru stated that Facebook “did not dispute the characterization and pointed to [Facebook CEO Mark] Zuckerberg’s March blog post calling for precisely such filtering.” The [post in question](https://www.facebook.com/notes/mark-zuckerberg/a-privacy-focused-vision-for-social-networking/10156700570096634/), “A Privacy-Focused Vision for Social Networking,” lists a plan for making Facebook more private by focusing on encrypted and ephemeral communication. Although the post states that Facebook might detect “patterns of activity or through other means, even when we can’t see the content of the messages” across apps, it does not specifically refer to client-side filtering of WhatsApp messages or private messaging. In other words, there’s no suggestion from Zuckerberg’s writing that a system is being developed to read user messages.
+
+Following the references in Leetaru’s post led to [another post](https://www.forbes.com/sites/kalevleetaru/2019/05/28/facebook-is-already-working-towards-germanys-end-to-end-encryption-backdoor-vision/) of his about an alleged WhatsApp backdoor. That post [linked to a video](https://developers.facebook.com/videos/2019/applying-ai-to-keep-the-platform-safe/) of a technical talk on Facebook’s developer site about the use of artificial intelligence to keep content that violates Facebook’s policies, such as hate speech, nudity and pornography, off of the network.
+
+The moderation would be performed by content classifiers, which is when a machine learning model is trained to recognize specific images and learns to reliably predict whether or not an image depicts violent content, for example. A Facebook spokesperson said there’s no connection between this type of moderation and private messaging encryption.
+
+“The article is completely off base,” said Weis of the *Forbes *post. The video being discussed was about filtering content before it’s posted to Facebook in the first place — the app could, for example, detect that an image is pornographic and simply prevent a user from uploading it to the News Feed. “It was never talking about WhatsApp.”
+
+Granted, a user wishing to post whatever they’d like on social media might take issue with this kind of automated moderation on the client side. (Technically, moderation like this already occurs on Facebook’s servers once content is uploaded.) But the important distinction is that it does not represent a backdoor into your conversations on WhatsApp.
+
+Further, Weis says that moderating content on people’s phones is actually a privacy win, if you’re concerned about material being stored on the social network’s servers. “Today if you post a picture that gets sent to Facebook, and then they run their content filtering, and it gets rejected, it gets taken down, but they still have it. In this case, your content will get filtered locally, before it ever gets sent over. So it reduces the amount of information that will be sent to Facebook in the first place.”
+
+Although the *Forbes *piece raises concern that plaintext copies of moderated messages would be sent to Facebook, “that’s completely filling in the blanks,” Weis said. “Nobody is talking about doing this for WhatsApp, and even if they did, nobody is talking about sending the plaintext to the server.”
+<|endoftext|>
+<|startoftext|>
+# Scientists Are Using CRISPR in Attempts to Restore Vision, Cure Blood Disorders, and More
+
+## New clinical trials are underway to treat human patients with CRISPR, a technique that edits DNA in cells
+
+![Photo: picture alliance/Getty Images](1*nRotlvayOlKeSyOe3m50Ew.jpeg)*Photo: picture alliance/Getty Images*
+
+The vast majority of existing medicines only treat symptoms of disease, rather than the root cause of them. But gene-editing technology, which allows scientists to tweak DNA, could lead to outright cures in the not-so-distant future.
+
+At least that’s the promise of CRISPR, a powerful gene-editing tool that could revolutionize medicine. In 2013, scientists published the first study using CRISPR to [cut and paste DNA in living human cells](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3795411/) in a lab. Now, biotech companies are putting that idea to the test in human patients. A handful of clinical trials using CRISPR are in progress in the United States, Europe, and China.
+
+Likened to molecular scissors, CRISPR’s power lays in its ability to snip out errant bits of genetic code, or replace genes altogether. In the first clinical trials, scientists will attempt the former. Swapping out nonworking genes for new ones is a more complicated undertaking, one that will likely take a few more years of lab and animal testing before it’s tried in people.
+
+Companies have been eager to commercialize CRISPR, with a slew of startups springing up over the past six years, including CRISPR Therapeutics, Editas Medicine, and Intellia Therapeutics. But despite the fervor around CRISPR, these initial human studies demonstrate the abundance of caution with which these companies are approaching gene editing in human beings. They’ll start out treating small numbers of patients. And CRISPR will only be used in the eye, or on cells outside the body at first. That’s to make sure the treatments are safe and won’t wreak havoc on other parts of the genome.
+
+### **Restoring vision**
+
+Genome-editing company Editas Medicine, and pharma partner Allergan, announced in July that they will soon test CRISPR on patients with an inherited form of blindness, called Leber congenital amaurosis 10. People born with this condition have severe vision loss that starts in early childhood, and some of them go completely blind. A mutation in the *CEP290* gene causes their photoreceptors — the light-sensing cells that make vision possible — to deteriorate over time.
+
+Editas’ experimental treatment uses CRISPR to snip out the mutation in the *CEP290* gene. The therapy will be injected into each eye behind the retina. The company thinks this approach will repair the remaining photoreceptors and restore vision.
+
+The trial will be the first so-called in vivo use of CRISPR in humans — meaning the therapy will be injected directly into the body. In a [company press release](http://ir.editasmedicine.com/news-releases/news-release-details/allergan-and-editas-medicine-initiate-brilliance-phase-12), Ben Yerxa, CEO of the Foundation Fighting Blindness, called it a “potentially life-changing medicine.”
+
+The eye is a good starting point, since it demands a very small dose. There’s also little risk of the therapy traveling anywhere else in the body. That’s important, because one of the clearest risks of CRISPR is that it could inadvertently make edits in a part of the genome it’s not supposed to — what are known as off-target effects.
+
+Editas had planned to seek permission from the U.S. Food and Drug Administration in 2017 to move ahead with human testing but didn’t do so until 2018. The company cited manufacturing issues as the reason for the delay. Now, the highly anticipated trial is finally [getting underway](https://clinicaltrials.gov/ct2/show/NCT03872479). Editas and Allergan say they are enrolling 18 patients from age three to adulthood in the initial trial.
+> # CRISPR will only be used in the eye, or on cells outside the body at first. That’s to make sure the treatments are safe and won’t wreak havoc on other parts of the genome.
+
+### **Curing blood disorders**
+
+While the Editas therapy will attempt to directly edit cells in the body, another company is editing cells outside the body in a lab, then putting the modified cells back into patients in hopes of effectively curing them.
+
+CRISPR Therapeutics, which has partnered with Vertex Pharmaceuticals, kicked off its first [human trial in Germany](https://clinicaltrials.gov/ct2/show/NCT03655678) last August. This trial aims to treat a blood disorder called beta thalassemia. Earlier this year, the company began another trial in the United States to treat sickle cell disease, a related blood disorder. So far, the company has treated one patient in Germany and [one in the United States](https://www.npr.org/sections/health-shots/2019/07/29/744826505/sickle-cell-patient-reveals-why-she-is-volunteering-for-landmark-gene-editing-st). About 15,000 people in Europe have beta thalassemia, and an estimated 100,000 in the United States — most of them African American — have sickle cell.
+
+Beta thalassemia patients rely on regular blood transfusions that can be as frequent as every two weeks. In a [July press release](https://crisprtx.gcs-web.com/news-releases/news-release-details/crispr-therapeutics-provides-business-update-and-reports-1), the company says the beta thalassemia patient in Germany hasn’t needed a blood transfusion in the four months since the treatment.
+
+Both diseases can be life-threatening, and both are caused by errors in the gene that makes hemoglobin, a crucial protein in red blood cells that carries oxygen throughout the body. Typically, a person needs to inherit two copies of the mutated gene — one from mom and one from dad — to have symptoms. In beta thalassemia, the body doesn’t make enough hemoglobin. In sickle cell disease, the body makes an abnormal form of hemoglobin that gives red blood cells a sickled shape. These sickled cells stick together and clog blood vessels, which blocks oxygen flow and causes pain episodes.
+
+CRISPR Therapeutics is attempting to treat both diseases in the same way. Everyone is born with a fetal hemoglobin gene that gets shut off after birth. In both clinical trials, scientists are using CRISPR to delete a piece of genetic code, which will turn that fetal gene back on in a person’s blood stem cells. The company’s therapy is similar to a bone marrow transplant — which replaces unhealthy blood stem cells with healthy ones from a donor — with an extra step added. And instead of using stem cells collected from a donor’s bone marrow, scientists at the company are extracting stem cells from a patient’s own bone marrow. They will then edit them with CRISPR in a lab and transplant the modified cells back into the patient. The idea is that the edited stem cells will travel back to the bone marrow, where they will begin to make healthy red blood cells.
+
+“Our goal is to provide patients with a potentially curative treatment option — a dramatic reduction or elimination of symptoms,” says Samarth Kulkarni, CEO of CRISPR Therapeutics. “This could be a one-and-done, but it’s still early days.”
+
+Scientists think this approach will help minimize any potential risks of CRISPR. By editing cells outside the body, they can observe whether the edits were effective before reintroducing those cells into patients.
+
+The [sickle cell study](https://clinicaltrials.gov/ct2/show/NCT03745287) is recruiting patients in New York, Philadelphia, Houston, Nashville, and Memphis, as well as in Canada, Germany, and Italy.
+> # The vision trial will be the first so-called in vivo use of CRISPR in humans — meaning the therapy will be injected directly into the body.
+
+### **Supercharging T cells against cancer**
+
+Philadelphia-based startup Tmunity is testing a CRISPR therapy for certain types of cancer that have recurred. The company is conducting a [clinical trial](https://clinicaltrials.gov/ct2/show/NCT03399448) at the University of Pennsylvania. In May, the first two patients — one with multiple myeloma, a type of blood cancer, and one with sarcoma, which occurs in the bones and connective tissues — received the Tmunity therapy. No further patients have been treated yet, though there are expected to be up to 18 participants in the trial. The company has yet to provide an update on the conditions of the treated patients.
+
+Tmunity’s approach also uses CRISPR to edit cells outside the body. In this case, scientists are drawing blood from patients and extracting T cells — a type of immune cell — from the samples. They then use CRISPR to remove two genes from the T cells and turn on a third one, essentially supercharging them against cancer. The cells will then be infused back into the patients.
+
+The procedure is similar to CAR T-cell therapy, which involves modifying a patient’s T cells in the lab so that they will attack cancer cells. Two CAR T-cell therapies, Kymriah and Yescarta, are already approved by the FDA, but neither uses CRISPR to modify patients’ T cells.
+
+Tmunity was spun out of Penn by star scientists Carl June and Bruce Levine, who have pioneered CAR T-cell therapy. The Parker Institute for Cancer Immunotherapy, founded by tech billionaire Sean Parker in 2016, is also funding the study. The trial took more than two years to get off the ground while it addressed concerns posed by the FDA.
+
+CRISPR Therapeutics is also beginning a trial to use the gene-editing tool to treat certain types of cancer. In China, at least a half-dozen trials using CRISPR for cancer are starting or ongoing.
+
+As promising as the CRISPR trials are, it will likely be months or years before we know for sure whether any of these therapies are effective and long-lasting. And before CRISPR can be used more broadly in medicine, scientists will need to do a lot more testing to make sure the gene-editing tool is truly safe.
+<|endoftext|>
+<|startoftext|>
+# Snapchat Needs to Evolve or Die Out
+
+## Despite the app’s decent quarter of earnings, Snapchat needs a marketing overhaul if it’s going to survive for the long run
+
+![Neilson Barnard/Getty Images](1*BE1vtEiDxwkUgg5tXMNqyA.jpeg)*Neilson Barnard/Getty Images*
+
+A few weeks ago, Snapchat published a [report](https://assets.ctfassets.net/inb32lme5009/5DFlqKVGIdmAu7X6btfGQt/44fdca09d7b630ee28f5951d54feed71/Into_Z_Future_Understanding_Gen_Z_The_Next_Generation_of_Super_Creatives_.pdf) on Generation Z habits, which was heralded by social media news sites as essential reading for brands who want to connect with younger audiences. So what’s the problem? Well, for one thing, it completely misses the mark on who actually uses Snapchat. As a social media professional who has worked in the industry for several years, and as a millennial, I know bad marketing when I see it — and unfortunately it seems, to me, that Snapchat simply doesn’t know its audience.
+
+You could argue this latest analysis from Snapchat may also be an attempt to regain some of its credibility. Following Kylie Jenner’s [comments on Twitter](https://twitter.com/KylieJenner/status/966429897118728192) last year about the app no longer being relevant*, *Snapchat’s market value dropped by over $1 billion. Her criticism came after the app implemented a redesign of its features which many argued made it less user-friendly.
+
+Snapchat’s second quarter earnings indicated that the company had at least stopped its free fall, with both daily active users and revenue growing and its stock price rebounding, but over the long run, Snapchat is still clutching at straws. It is struggling to understand why no one uses it any more, apart from, perhaps, children between the ages of five and 12 years old, an age group brands wouldn’t want to market to anyway. What is a 5-year-old going to be able to buy? This age group sees the app as a toy, using the filters for fun rather than for anything else. Sure, TV and film studios, or even toy companies, can partner with them to create exclusive filters that may influence this age group, who in turn might ask their parents to go and see the latest Marvel or Disney film or buy some new toy, but ultimately, with this age group, it is still the parents who make the call.
+> # Live their truth — are they serious?
+
+The report says: “Gen Z are setting a new tone for visual culture — after an era of posed photos against millennial-pink backdrops, a new wave of content mixes selfies with spoken word, imperfect collages with augmented reality (AR) landscapes, and illustration with candid live streams. This is layered with the need to live their truth, and an acute sense of social responsibility.”
+
+I mean, I can spout nonsense marketing speak and awful buzzwords with the best of them, but this takes it to a whole new level! What on earth are they saying here? “Live their truth” — are they serious? This is a perfect example of a brand senior exec adopting “youth speak” (and not very well) to appear relevant or knowledgeable about what the young people want. Every time I read something like this, all I can think of is…
+
+![](0*8LB_K0HL5U8yY0SZ)
+
+So what’s the answer? Well, Snapchat needs to capitalize on what it does best — filters! They far supersede those of Instagram and Facebook — ask anyone and they’ll tell you the same thing: “I use the Snapchat filters and then upload the photo or video on my Instagram story.”
+
+Snapchat has tried to reinvent itself time and time again because ultimately, it doesn’t know whether the app should be used as a marketing tool or a social media network. If you’re clever, like Instagram, you know how to be both.
+
+While I doubt a partnership with Instagram makes much sense for Snapchat, what they could do instead is to launch stand-alone kiosks in stores, bars, and more, where users have the opportunity for their photos to be seen on a bigger platform. [Times Square did something similar a few years ago](https://mashable.com/2009/12/30/photo-times-square/?europe=true), and, in fact, most hipster bars, coffee shops, and even the likes of New Look and Topshop have in-store photo booths for customers to take snapshots to commemorate their experience, and it is this experiential element that most millennials and younger generations now seek. This is what brands — including Snapchat — need to leverage, or they might not survive.
+<|endoftext|>
