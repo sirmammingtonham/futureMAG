@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# project specific stuff
+checkpoint
+models
+tokens.txt

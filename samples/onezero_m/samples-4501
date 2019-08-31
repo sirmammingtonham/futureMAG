@@ -1,0 +1,30 @@
+======== SAMPLE 1 ========
+ expensive.
+
+To drive this point home, Microsoft released a new background image which, as you can see, is a modified version of the original. The company did not respond to multiple requests for comment.
+
+In our tests, the background image displayed for browsing was nearly identical to the one you see at the top of your browser window, with an unusual exception: It was blue, not green, instead of a light blue like the stock web page. This may be because Microsoft is working to integrate its new background image — one that looks like it was designed by, you guessed, Microsoft — into its upcoming Windows 10 operating system.
+> # Even a relatively small background can add a lot to a user’s experience.
+
+[The company confirmed to me that its new background image uses the .ico file extension, which means it contains metadata identifying it as an image made specifically for Windows. (I can image .png’ with no metadata attached, for instance.)
+
+Even a relatively small background can add a lot to a user’s experience, said Christopher Mims, the product manager of Wikimedia, Microsoft’s sister site. “The background image is important for helping users see the content on the page as opposed to just the sidebar,” he said.
+
+That background image mostly serves as a source for Wikipedia and other pages within the site to draw inspiration from. Mims said the site tried to emulate the look and feel of the wiki by including popular articles in the background. “It’s a very sport-like feel,” he said.
+
+However, the main difference is that articles tend to be taller and feature more prominently, while a sidebar links to other pages. “I’ve always been a Wikipedia [hater](&lt;|url|&gt;),” Mims told me. “They should not be in my home page.”
+
+Of course, the new page design means some older content is no longer visible from the page you’re on now, but it’s unlikely that anyone is reading that content. The site as a whole appears to be working as designed — for now.
+
+But the confusion isn’t just Wikipedia’s. Users also struggle with how to navigate the site and understand all the rules and conventions associated with the platform they’re using.
+
+For instance, [search results on YouTube](&lt;|url|&gt;) suggest that searches related to puppy siring are not only included, but also flagged as violent and relevant. Users can click on the video to view the tooltips associated with it, but [here](&lt;|url|&gt;), the creator goes by the name of [Jack Nicholson](&lt;|url|&gt;). Scrolling through this tool helps save you from accidentally finding [a clip of Jack Nicholson yelling at Wikipedia](&lt;|url|&gt;).
+
+The bot interacts with other bots on Wikipedia, too. When a page has too many “Uncited citations,” for instance, the Bing bot will try to identify relevant citations from other URLs and present them in a collapsable list like so: [Jack Nicholson’s Wiktionary page](&lt;|url|&gt;). Even pages that are currently unpublished or have yet to be fully referenced will sometimes appear on the Bing team’s pages, in some cases due to a bot being programmed to look for specific terms in Wikipedia articles, and link to those citations when it senses a link to be made.
+
+In other cases, such as movies [citation lottery results or a guest post](&lt;|url|&gt;) at Wikipedia on a topic that hasn’t yet entered the massive dictionary of all the terms collected under the *Star Wars* toy line, Bing links to a page on one of its other pages, which is then categorized as “Bing: Related articles related to this topic.” Even fairly obscure references will generally show up on the partner pages of similarly titled books, and in some cases, entire books will link to multiple pages.
+
+In one particularly memorable example, [Jack Nicholson and Robert Pattinson star in a scene](&lt;|url|&gt;) in which Wikipedia notes that Nicholson’s Wikipedia page is actually an article on him, and not his encyclopedia page as presented on the video/movie page. Whoops.
+
+Bing and the Wikimedia movement are hardly the only ones putting this at odds with how things work in a Wikipedia article. According to Molly Smith, director of communication at Nuance, which provides digital assistance to journalists, the staff at Wikipedia are often much more generous than, say, [the staff at Medium](&lt;|url|&gt;), which is generally regarded as the gold standard in online wiki-building.
+
